@@ -1,0 +1,71 @@
+@media screen and (max-width: 1024px) {
+	article {
+		width: 90%;
+	}
+	.logo2 {
+		margin-right: -15px;
+	}
+	.icons {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+	.icons:nth-child(2), 
+	.icons:last-child {
+    	margin: 0 auto;
+    	margin-top: 15px;
+    }
+	.big-radius {
+		display: none;
+	}
+	.wrapper_icon_lean1,
+	.wrapper_icon_lean2 {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.icon_lean {
+		margin: 0 auto;
+		width: 80%;
+	}
+    .about-me,
+    .about-me:nth-child(1),
+    .about-me:nth-child(3) {
+    	margin: 0 auto;
+    	float: none;
+    }
+    .cell,
+    .act {
+    	display: block;
+    	margin: 15px auto 0 auto;
+    }
+    .small-radius {
+
+    }
+    .contact span {
+    	display: block;
+    	width: 100%;
+    	margin: 10px auto 0 auto;
+    } 
+
+   }
+@media screen and (max-width: 768px){
+ 	.logo1, .logo2 {
+ 		display: none;
+ 	}
+ 	.wheel {
+ 		width: 300px;
+ 		margin-left: -160px; 
+ 	}
+ 	.paragraf {
+ 		width: 89%;
+ 	}
+ 	.paragraf2 {
+ 		width: 100%;
+ 	}
+ 	.text-red {
+ 		width: 100%;
+ 	}
+}
